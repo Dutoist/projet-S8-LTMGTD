@@ -47,4 +47,6 @@ Ce projet vise à créer une maquette de maison connectée en utilisant des capt
 - [MQ-135 Capteur de qualité de l'air](https://www.adafruit.com/product/3199)
 - [Arduino Documentation](https://www.arduino.cc/en/Guide)
 - [Raspberry Pi Documentation](https://www.raspberrypi.org/documentation/)
+- [House Model](https://cad.onshape.com/documents/de840b971062f1b6a3d2750f/w/ea7fc6207572d0be96b95fa8/e/23b2df6f54c7adfef7c06e8f?renderMode=0&uiState=66659a27d3e38f2dfa5ada43)
+- 
 
