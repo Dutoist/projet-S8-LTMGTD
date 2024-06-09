@@ -51,5 +51,5 @@ Ce projet vise à créer une maquette de maison connectée en utilisant des capt
 - [Arduino Documentation](https://www.arduino.cc/en/Guide)
 - [Raspberry Pi Documentation](https://www.raspberrypi.org/documentation/)
 - [Modèle de la maison](https://cad.onshape.com/documents/de840b971062f1b6a3d2750f/w/ea7fc6207572d0be96b95fa8/e/23b2df6f54c7adfef7c06e8f)
-![image]("https://github.com/Dutoist/projet-S8-LTMGTD/edit/main/project/back.jpg")
-<img alt="image" src="https://github.com/Dutoist/projet-S8-LTMGTD/edit/main/project/back.jpg">
+![image]("project/back.jpg")
+<img alt="image" src="project/back.jpg">
