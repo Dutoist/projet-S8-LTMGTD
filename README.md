@@ -38,9 +38,9 @@ Ce projet vise à créer une maquette de maison connectée en utilisant des capt
    <img alt="image" src="project/model.png">
 - **Rapport technique détaillant les composants et le code utilisé**
   - Code ESP32 -
-    <a href="project/ESP8266_mainCode.ino">
+    
   - Code Arduino Leonardo -
-  - 
+ 
 - **Présentation finale du projet**
 
 - ## Évolutions possibles
