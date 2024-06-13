@@ -1,7 +1,7 @@
 
 # Maison Connectée - Domotique Miniature
 
-## Description
+## Description du projet
 Ce projet vise à créer une maquette de maison connectée en utilisant des capteurs et des actionneurs pour simuler des systèmes de domotique. L'objectif est de démontrer comment les technologies modernes peuvent être utilisées pour améliorer le confort et l'efficacité énergétique d'une maison.
 
 ## Objectifs
@@ -12,8 +12,7 @@ Ce projet vise à créer une maquette de maison connectée en utilisant des capt
 
 ## Fonctionnalités
 - **Capteurs de température et d'humidité :** Utilisation de DHT11 ou DHT22 pour surveiller les conditions climatiques.
-- **Actionneurs :** Utilisation de relais ou de transistors pour contrôler des lampes et des ventilateurs.
-- **Microcontrôleurs :** Utilisation d'Arduino ou Raspberry Pi pour la programmation et le contrôle des capteurs et des actionneurs.
+- **Microcontrôleurs :** Utilisation d'Arduino pour la programmation et le contrôle des capteurs et des actionneurs.
 - **Affichage d'informations :** Utilisation de NodeRed Dashboard pour afficher les données captées.
 - **Capteur de qualité de l'air :** Utilisation du MQ-135 pour surveiller les polluants et la qualité de l'air.
 - **Modules de communication :** Utilisation de modules Wi-Fi ou Bluetooth pour le contrôle à distance.
@@ -36,7 +35,7 @@ Ce projet vise à créer une maquette de maison connectée en utilisant des capt
 ## Livrables
 - **Maquette fonctionnelle de la maison connectée**
    <img alt="image" src="project/model.png">
-   Maison comportant 4 pièces (cuisine/salon/chambre/bureau)
+   Maison comportant 4 pièces (cuisine/salon/chambre/bureau), trous pour le passage des cables réalisé après impression et sur des emplacements libre de choix, 
 - **Rapport technique détaillant les composants et le code utilisé**
   - Code ESP32 -
        - Composant principal constituant la passerelle entre la machine virtuelle ainsi que son traitement, et l'ensemble des équipements physiques ainsi que leur état.
