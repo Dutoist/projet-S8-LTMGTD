@@ -26,7 +26,7 @@ Ce projet vise à créer une maquette de maison connectée en utilisant des capt
 - **Microcontrôleurs :** Arduino, Raspberry Pi
 - **Écrans :** LCD, OLED
 - **Capteur de qualité de l'air :** MQ-135
-- **Modules de communication :** Wi-Fi, Bluetooth
+- **Modules de communication :** Wi-Fi, RX-TX
 
 ## Équipe de Projet
 - **Lucas TARDIF:** Rôle : 3D Builder | Developper
@@ -39,11 +39,11 @@ Ce projet vise à créer une maquette de maison connectée en utilisant des capt
    Maison comportant 4 pièces (cuisine/salon/chambre/bureau)
 - **Rapport technique détaillant les composants et le code utilisé**
   - Code ESP32 -
-       - Composant principal constituant la passerelle entre la machine virtuelle ainsi que son traitement, et l'ensemble des équipements physique ainsi que leur état.
+       - Composant principal constituant la passerelle entre la machine virtuelle ainsi que son traitement, et l'ensemble des équipements physiques ainsi que leur état.
     
   - Code Arduino Leonardo -
-       - Composant secondaire, nécessaire pour l'apport de ports Analogiques supplémentaire. Les deux cartes communique entre elle via une communication RX-TX.
- 
+      - Composant secondaire, nécessaire pour fournir des ports analogiques supplémentaires. Les deux cartes communiquent entre elles via une connexion RX-TX.
+   
 - **Présentation finale du projet**
 
 - ## Évolutions possibles
