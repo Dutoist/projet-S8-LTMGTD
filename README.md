@@ -56,11 +56,13 @@ Ce projet vise à créer une maquette de maison connectée en utilisant des capt
 
   - Exemple entité Fiware :
       {
+    
          "id": "Kitchen",
          "type": "Room",
          "Temperature": {
             "type": "float",
             "value": 19
+    
          },
          "Gaz": {
             "type": "int",
