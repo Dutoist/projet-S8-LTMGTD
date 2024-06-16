@@ -46,9 +46,37 @@ Ce projet vise à créer une maquette de maison connectée en utilisant des capt
    Selon la réalisation de votre maison, seul l'ESp32 sera nécessaire, cependant celui-ci ne fournissant pas une multitude de port Analogique, nous avons eu recourt un l'utilisation d'une deuxième carte.
 
 - **Machine Virtuelle**
-  - Code ESP32 -
-       - Composant principal constituant la passerelle entre la machine virtuelle ainsi que son traitement, et l'ensemble des équipements physiques ainsi que leur état.
-    
+  - Installation Docker :
+       - Portainer : interface graphique d'administration des dockers/images.
+       - NodeRed :  Serveur d'application, visant à recueillir les informations.
+       - Fiware : Création et gestion de l'ensemble des pièces de la maison et des capteurs.
+       - Orion - MongoDB : Historisation des données pour une future analyse.
+    ⚠️ Gestion des volumes depuis Portainer à préconiser pour éviter une perte totales de vos données ⚠️
+
+  - Exemple entité Fiware :
+      {
+         "id": "Kitchen",
+         "type": "Room",
+         "Temperature": {
+            "type": "float",
+            "value": 19
+         },
+         "Gaz": {
+            "type": "int",
+            "value": 80
+         },
+         "Status": {
+            "type": "string",
+            "value": "OK"
+         }
+      }
+  - Via Fiware :  Création au besoin d'abonnement (Subscription)
+       - Mise à disposition d'alerte en fonction d'un seuil critique fourni.
+
+  - Node red :
+       Machine Virtuelle indisponible donc je ne peux pas fournir le flux node-red ni un aperçu.  
+
+         
 - **Présentation finale du projet**
      - Une fois l'ensemble de vos équipements branchés voici comment s'articule le projet.
           - Le scan d'un badge RFID (sans disctinction) actionne ou désactive le système d'alarme.
@@ -57,8 +85,9 @@ Ce projet vise à créer une maquette de maison connectée en utilisant des capt
           - Système d'alarme ON :
                - Envoie d'un signal à la deuxième carte pour lui signaler le changement d'état.
                - réception des données de l'autre carte via RX/TX
-               - Envoie de l'ensemble des données sur le réseau
-               - Réception des données sur le serveur NodeRed.
+               - Envoie de l'ensemble des données sur le réseau MQTT
+               - Réception des données sur le serveur NodeRed via le topic choisi.
+               - Mise à jours des entitées Fiware ainsi que l'Affichage du Dashboard Node-Red.
 
 - ## Évolutions possibles
 - **Capteurs de lumière :** Utilisation du BH1750 pour ajuster l'éclairage en fonction de la luminosité ambiante.
