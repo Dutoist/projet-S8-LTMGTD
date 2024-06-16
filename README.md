@@ -35,15 +35,30 @@ Ce projet vise à créer une maquette de maison connectée en utilisant des capt
 ## Livrables
 - **Maquette fonctionnelle de la maison connectée**
    <img alt="image" src="project/model.png">
-   Maison comportant 4 pièces (cuisine/salon/chambre/bureau), trous pour le passage des cables réalisé après impression et sur des emplacements libre de choix, 
+   Maison comportant 4 pièces (cuisine/salon/chambre/bureau), trous pour le passage des cables réalisé après impression et sur des emplacements libre de choix.
 - **Rapport technique détaillant les composants et le code utilisé**
   - Code ESP32 -
        - Composant principal constituant la passerelle entre la machine virtuelle ainsi que son traitement, et l'ensemble des équipements physiques ainsi que leur état.
     
   - Code Arduino Leonardo -
       - Composant secondaire, nécessaire pour fournir des ports analogiques supplémentaires. Les deux cartes communiquent entre elles via une connexion RX-TX.
-   
+
+   Selon la réalisation de votre maison, seul l'ESp32 sera nécessaire, cependant celui-ci ne fournissant pas une multitude de port Analogique, nous avons eu recourt un l'utilisation d'une deuxième carte.
+
+- **Machine Virtuelle**
+  - Code ESP32 -
+       - Composant principal constituant la passerelle entre la machine virtuelle ainsi que son traitement, et l'ensemble des équipements physiques ainsi que leur état.
+    
 - **Présentation finale du projet**
+     - Une fois l'ensemble de vos équipements branchés voici comment s'articule le projet.
+          - Le scan d'un badge RFID (sans disctinction) actionne ou désactive le système d'alarme.
+          - Système d'alarme OFF :
+               - Led éteinte, aucune données
+          - Système d'alarme ON :
+               - Envoie d'un signal à la deuxième carte pour lui signaler le changement d'état.
+               - réception des données de l'autre carte via RX/TX
+               - Envoie de l'ensemble des données sur le réseau
+               - Réception des données sur le serveur NodeRed.
 
 - ## Évolutions possibles
 - **Capteurs de lumière :** Utilisation du BH1750 pour ajuster l'éclairage en fonction de la luminosité ambiante.
