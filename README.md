@@ -43,7 +43,7 @@ Ce projet vise à créer une maquette de maison connectée en utilisant des capt
   - Code Arduino Leonardo -
       - Composant secondaire, nécessaire pour fournir des ports analogiques supplémentaires. Les deux cartes communiquent entre elles via une connexion RX-TX.
 
-   Selon la réalisation de votre maison, seul l'ESp32 sera nécessaire, cependant celui-ci ne fournissant pas une multitude de port Analogique, nous avons eu recourt un l'utilisation d'une deuxième carte.
+   Selon la réalisation de votre maison, seul l'ESP32 sera nécessaire, cependant celui-ci ne fournissant pas une multitude de port Analogique, nous avons eu recourt un l'utilisation d'une deuxième carte.
 
 - **Machine Virtuelle**
   - Installation Docker :
