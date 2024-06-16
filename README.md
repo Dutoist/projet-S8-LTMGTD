@@ -93,7 +93,7 @@ Ce projet vise à créer une maquette de maison connectée en utilisant des capt
 - ## Évolutions possibles
 - **Capteurs de lumière :** Utilisation du BH1750 pour ajuster l'éclairage en fonction de la luminosité ambiante.
 - **Capteurs de mouvement :** Utilisation de capteurs PIR pour détecter la présence humaine et automatiser les appareils.
-- **Ajout des données en base / Historisation :** Système d'historique complet pouvant servir par la suite à une analyse. (pertes de chaleur de la maison par exemple)
+- **Ajout des données en base - Historisation :** Système d'historique complet pouvant servir par la suite à une analyse. (pertes de chaleur de la maison par exemple)
 
 ## Références
 - [DHT11/DHT22 Documentation](https://www.adafruit.com/product/386)
