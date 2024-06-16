@@ -51,6 +51,7 @@ Ce projet vise à créer une maquette de maison connectée en utilisant des capt
        - NodeRed :  Serveur d'application, visant à recueillir les informations.
        - Fiware : Création et gestion de l'ensemble des pièces de la maison et des capteurs.
        - Orion - MongoDB : Historisation des données pour une future analyse.
+    
     ⚠️ Gestion des volumes depuis Portainer à préconiser pour éviter une perte totales de vos données ⚠️
 
   - Exemple entité Fiware :
