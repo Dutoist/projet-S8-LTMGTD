@@ -55,14 +55,12 @@ Ce projet vise à créer une maquette de maison connectée en utilisant des capt
     ⚠️ Gestion des volumes depuis Portainer à préconiser pour éviter une perte totales de vos données ⚠️
 
   - Exemple entité Fiware :
-      {
-    
+   
          "id": "Kitchen",
          "type": "Room",
          "Temperature": {
             "type": "float",
             "value": 19
-    
          },
          "Gaz": {
             "type": "int",
@@ -72,7 +70,7 @@ Ce projet vise à créer une maquette de maison connectée en utilisant des capt
             "type": "string",
             "value": "OK"
          }
-      }
+      
   - Via Fiware :  Création au besoin d'abonnement (Subscription)
        - Mise à disposition d'alerte en fonction d'un seuil critique fourni.
 
